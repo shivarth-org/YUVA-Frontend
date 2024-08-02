@@ -1,0 +1,100 @@
+.instOuterDiv {
+  margin-top: 6rem;
+}
+
+.instTimeText {
+  text-align: right;
+  font-family: var(--font-family-2);
+}
+
+.instListText {
+  font-family: var(--font-family-2);
+}
+
+.startBtn {
+  background-color: var(--yuva-green);
+  border-radius: 0.4rem;
+  height: 2.2rem;
+  border: none;
+  color: white;
+  padding: 0 1rem 0 1rem;
+  font-family: var(--font-family-2);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.startBtn:hover {
+  background-color: var(--yuva-dark-green);
+}
+
+.secHeading {
+  font-family: var(--font-family-1);
+  font-weight: 900;
+}
+
+.instScoreText {
+  font-size: 0.9rem;
+  font-family: var(--font-family-2);
+  color: var(--grey);
+  text-decoration: underline;
+}
+
+.quizOuterDiv {
+  margin-top: 6rem;
+}
+
+.quizTimerDiv {
+  font-family: var(--font-family-2);
+}
+
+.quizDiv {
+  margin-top: 2rem;
+  font-family: var(--font-family-2);
+}
+
+.quizItemDiv {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background-color: var(--yuva-green);
+  border-radius: 0.4rem;
+  height: 2.2rem;
+  border: none;
+  color: white;
+  padding: 0 1rem 0 1rem;
+  font-family: var(--font-family-2);
+  /* font-size: 1rem; */
+  margin: 0.5rem;
+}
+.certBtn{
+    background: linear-gradient(135deg, #45b31a, #378509);
+    border-radius: 0.6rem;
+  height: 2.2rem;
+  border: none;
+  color: white;
+  padding: 0 1rem 0 1rem;
+  font-family: var(--font-family-2);
+  /* font-size: 1rem; */
+  margin: 0.5rem;
+}
+.certBtn:hover{
+    background: var(--yuva-dark-green)
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--yuva-dark-green);
+}
+
+.resultOuterDiv {
+  margin-top: 6rem;
+}
+
+.resultText {
+  text-align: center;
+  font-family: var(--font-family-2);
+  font-weight: 400;
+  /* margin-top: 3rem; */
+}

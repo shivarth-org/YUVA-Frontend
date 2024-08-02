@@ -1,0 +1,35 @@
+.footer {
+  /* background-color: purple; */
+  background-color: grey;
+  /* height: 360px; */
+  margin-top: 6rem;
+  padding: 40px 0 30px 0;
+  text-align: center;
+  color: white;
+  /* border: 2px solid red; */
+  font-family: var(--desc-font);
+  /* border-top: 2px solid var(--light-purple); */
+}
+
+.footer-heading {
+  font-size: var(--big-desc-fsz);
+  font-weight: var(--login-btn-fwt);
+  padding-bottom: 10px;
+}
+
+.footer-tab {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 2px;
+}
+
+.footer-tab:hover {
+  color: grey;
+}
+
+.copyright-tab {
+  margin-top: 40px;
+  font-size: 1rem;
+  font-weight: var(--sub-title-fwt);
+}

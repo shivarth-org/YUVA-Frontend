@@ -1,0 +1,152 @@
+.u-footer-div {
+    margin-top: 9rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.u-footer {
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+}
+
+.u-footer-main {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    gap: 3rem;
+    padding: 1.6rem 5rem;
+    border-top: 1px solid rgb(175, 175, 175);
+}
+
+.u-footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 250px;
+}
+
+.u-yuva-logo {
+    width: 100%;
+}
+
+.u-footer-links {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.u-footer-links h1 {
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.u-footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.u-footer-col li {
+    list-style: none;
+}
+
+.u-footer-link {
+    color: black;
+    font-family: var(--font-family-1);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all ease-in-out 0.5s;
+}
+
+.u-footer-link:hover {
+    color: var(--yuva-dark-orange);
+}
+
+.u-footer-icon {
+    color: black;
+    font-family: var(--font-family-1);
+    text-decoration: none;
+    transition: all ease-in-out 0.3s;
+    padding: 0.4rem 1rem;
+}
+
+.u-footer-icon:hover {
+    color: var(--yuva-dark-orange);
+}
+
+.u-footer-social {
+    display: flex;
+}
+
+.u-footer-lnct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+.u-footer-lnct h1 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.u-footer-section {
+    padding: 0.7rem 0rem;
+    border-top: 1px solid rgb(175, 175, 175);
+    display: flex;
+    justify-content: center;
+}
+
+.u-footer-section span {
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+    .u-footer-main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .u-about-page-outer-div {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 6rem;
+    }
+
+    .u-footer {
+        flex-direction: column;
+    }
+
+    .u-footer-link {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .u-hr {
+        margin-top: 3rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .u-yuva-logo {
+        width: 50%;
+    }
+
+    .u-footer-lnct h1 {
+        font-size: 1rem;
+    }
+
+    .u-footer-section span {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .u-footer-links h1 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

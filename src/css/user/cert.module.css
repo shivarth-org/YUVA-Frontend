@@ -1,0 +1,115 @@
+.outerDiv {
+  margin: auto;
+  width: 100%;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  box-shadow: var(--box-shadow-1);
+  text-align: center;
+}
+
+.innerDiv {
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.orgLogo {
+  width: 100%;
+}
+
+.holderName {
+  font-size: 2.5rem;
+  font-style: italic;
+  font-family: Times;
+  font-weight: 600;
+}
+
+
+.achieveText {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.trophyLogo {
+  margin-top: 0;
+  width: 6rem;
+  width: 16%;
+}
+
+.signImg {
+  width: 5rem;
+  /* width: 30%; */
+}
+
+.desigText {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.ciyiText {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+/************************************ Tab *******************************************/
+
+@media (max-width: 992px) and (min-width: 576px) {
+  .holderName {
+    font-size: 2.2rem;
+    margin: 0;
+  }
+
+  .completionText {
+    font-size: 1.8rem;
+  }
+
+  .achieveText {
+    font-size: 0.85rem;
+  }
+
+  .signImg {
+    width: 4rem;
+  }
+
+  /* .desigText {
+    font-size: 0.6rem;
+  }
+  .ciyiText {
+    font-size: 0.5rem;
+  } */
+}
+
+/********************************************** Mobile ************************************************/
+
+@media (max-width: 576px) {
+  .holderName {
+    font-size: 1.4rem;
+    margin: 0;
+  }
+
+  .completionText {
+    font-size: 1.2rem;
+  }
+
+  .achieveText {
+    font-weight: 400;
+    font-size: 0.6rem;
+    margin-bottom: 0;
+  }
+
+
+
+  .signImg {
+    width: 2.4rem;
+  }
+
+  .desigText {
+    font-size: 0.5rem;
+  }
+
+  .ciyiText {
+    font-size: 0.4rem;
+  }
+}

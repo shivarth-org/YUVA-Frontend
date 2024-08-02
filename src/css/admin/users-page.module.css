@@ -1,0 +1,298 @@
+.outerDiv {
+    margin-top: 8rem;
+}
+
+.fileDiv {
+    display: flex;
+    align-items: end;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.innerFileDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.xlDownloadBtn {
+    background: none;
+    height: 2.75rem;
+    width: fit-content;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-block-start: 0.6rem;
+
+    color: var(--yuva-blue);
+    font-family: var(--font-family-2);
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 4px;
+
+    transition: all 200ms;
+}
+
+.xlDownloadBtn:hover {
+    /* color: black; */
+    text-decoration: underline;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.fileInput {
+    background-color: var(--yuva-blue);
+}
+
+.fileUploaded {
+    font-size: 1rem;
+}
+
+.fileUploadBtn {
+    background-color: var(--yuva-blue);
+    display: block;
+    height: 2.75rem;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    font-family: var(--font-family-2);
+    cursor: pointer;
+
+    transition: 200ms all;
+}
+
+.fileUploadBtn:hover {
+    background-color: var(--yuva-dark-blue);
+    background-color: #0d5e9cdc;
+}
+
+.addBtn {
+    background-color: var(--blue);
+    margin-top: 1.4rem;
+    height: 2.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    font-family: var(--font-family-2);
+}
+
+.addBtn:hover {
+    background-color: var(--yuva-dark-blue);
+}
+
+.addBtn {
+    background-color: var(--blue);
+    margin-top: 1.4rem;
+    height: 2.75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: white;
+    font-family: var(--font-family-2);
+}
+
+.addBtn:hover {
+    background-color: var(--yuva-dark-blue);
+}
+
+.paginationBtns {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto 0rem auto;
+}
+
+.filterBtns {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paginationBtns span {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.collegeSearch {
+    position: relative;
+}
+
+.searchInputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.searchInput {
+    border-radius: 0.4rem;
+    outline: none;
+    border: 1px solid;
+    height: 40px;
+    width: 300px;
+}
+
+.searchCollegeDropdown {
+    background-color: #fff;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.4rem;
+    padding: 0.8rem;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    max-height: 400px;
+    height: fit-content;
+    overflow-y: scroll;
+}
+
+.searchCollegeDropdownRow {
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.searchCollegeDropdown:empty {
+    display: none;
+}
+
+.searchBtn {
+    outline: none;
+    border: none;
+    padding: 0.4rem 1.4rem;
+    border-radius: 0rem 0.4rem 0.4rem 0rem;
+    background-color: #2a3e78;
+    color: white;
+    font-weight: 600;
+    height: 40px;
+}
+
+.viewBtn {
+    outline: none;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+    background-color: var(--yuva-dark-green);
+    color: white;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prevBtn,
+.nextBtn,
+.sortTypeBtn {
+    outline: none;
+    border: none;
+    padding: 0.4rem 1.4rem;
+    border-radius: 0.4rem;
+    background-color: var(--yuva-blue);
+    color: white;
+    font-weight: 600;
+    height: 40px;
+}
+
+/* // sets
+
+$gl-ms         : "screen and (max-width: 23.5em)"; // up to 360px
+$gl-xs         : "screen and (max-width: 35.5em)"; // up to 568px
+$gl-sm         : "screen and (max-width: 48em)";   // max 768px
+$gl-md         : "screen and (max-width: 64em)";   // max 1024px
+$gl-lg         : "screen and (max-width: 80em)";   // max 1280px */
+
+/* // table style */
+
+table {
+    border-spacing: 1;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 1rem;
+    border: 2px solid var(--yuva-blue);
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    font-family: var(--font-family-2);
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+
+thead tr {
+    height: 60px;
+    background: var(--yuva-blue);
+    font-size: 1.2rem;
+    color: #ffff;
+}
+
+tbody tr {
+    height: 48px;
+    border-bottom: 1px solid #e3f1d5;
+}
+
+tbody tr:last-child {
+    border: 0;
+}
+
+/* 
+@media #{$gl-xs}              {
+  
+  table					              { display:block;
+	  > *,tr,td,th              { display:block }
+    
+    thead                     { display:none }
+    tbody tr                  { height:auto; padding:8px 0;
+      td                      { padding-left:45%; margin-bottom:12px;
+        &:last-child          { margin-bottom:0 }
+        &:before              { 
+          position:absolute;
+          font-weight:700;
+          width:40%;
+          left:10px;
+          top:0
+        }
+        
+        &:nth-child(1):before { content:"Code";}
+        &:nth-child(2):before { content:"Stock";}
+        &:nth-child(3):before { content:"Cap";}
+        &:nth-child(4):before { content:"Inch";}
+        &:nth-child(5):before { content:"Box Type";}
+      }        
+    }
+  }
+}  	 */
+
+/****************************************** Mobile and tab ******************************************/
+
+@media (max-width: 992px) and (min-width: 576px) {
+    .outerDiv {
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .outerDiv {
+        margin-top: 6rem;
+    }
+}

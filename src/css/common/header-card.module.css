@@ -1,0 +1,22 @@
+.headerDiv {
+    background-image: linear-gradient(to right, #c2dcfe, #fcc7e1);
+    border-radius: 1rem;
+    text-align: center;
+    /* font-family: var(--font-family-1); */
+    padding: 4rem;
+    color: var(--yuva-dark-blue);
+    margin-bottom: 2rem;
+}
+
+/******************************************* Mobile and Tab *********************************************/
+@media (max-width: 992px) and (min-width: 576px) {
+    .headerDiv {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .headerDiv {
+        padding: 2rem;
+    }
+}

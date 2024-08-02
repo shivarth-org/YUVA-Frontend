@@ -1,0 +1,29 @@
+.userTypeCard {
+  width: auto;
+  transition: box-shadow 1s ease background-color 1s ease;
+  border: none;
+  cursor: pointer;
+  border: 3px solid #2a3e78;
+  border-radius: 30px;
+  /* width: 220px; */
+}
+.cardTitle {
+  text-align: center;
+  color: #2a3e78;
+  font-size: 30px;
+  /* margin-bottom: 20px; */
+  font-weight: 600;
+}
+.userTypeCard:hover .cardTitle {
+  /* color: rgb(255, 255, 255); */
+}
+
+.userTypeCard:hover {
+  /* background-color: 2a3e78; */
+  /* color: rgb(255, 255, 255); */
+  /* box-shadow: 0 45px 65px rgba(0, 0, 0, 0.5), 0 35px 22px rgba(0, 0, 0, 0.16); */
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #fff;
+  transition: 1s;
+}

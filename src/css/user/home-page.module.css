@@ -1,0 +1,170 @@
+.outerDiv {
+    margin-top: 9rem;
+    margin-bottom: 8rem;
+}
+
+.introDiv {
+    padding-right: 10%;
+}
+
+.yuvaImg {
+    width: 100%;
+}
+
+.introHeading {
+    font-size: 3.2rem;
+    font-family: var(--font-family-1);
+    color: #2a3e78;
+    font-weight: 600;
+}
+
+.introSubheading {
+    font-size: 1.4rem;
+    font-family: var(--font-family-1);
+    font-weight: 600;
+    margin: 0.4rem 0 1.8rem 0;
+    color: rgb(61, 61, 61);
+}
+
+.introDesc {
+    font-size: 1rem;
+    font-family: var(--font-family-2);
+    color: rgb(97, 97, 97);
+}
+
+.aboutBtn,
+.exploreBtn {
+    border-radius: 0.4rem;
+    border: none;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+    display: inline;
+    margin-right: 1.2rem;
+    height: 2.75rem;
+    font-family: var(--font-family-2);
+    color: white;
+    margin-top: 2.4rem;
+}
+
+.aboutBtn {
+    background-color: var(--yuva-blue);
+}
+
+.aboutBtn:hover {
+    background-color: var(--yuva-dark-blue);
+    transition: all 200ms;
+}
+
+.exploreBtn {
+    background-color: var(--yuva-green);
+}
+
+.exploreBtn:hover {
+    background-color: var(--yuva-dark-green);
+    transition: all 200ms;
+}
+
+.headerText {
+    font-size: 4.5rem;
+    font-weight: 800;
+}
+
+.card-grid-verticals {
+    margin: auto 8rem;
+}
+
+.headerText {
+    font-size: 2.8rem;
+    font-family: var(--font-family-1);
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #2a3e78;
+}
+
+/*********************************************** Mobile and Tab  *******************************************/
+
+@media (max-width: 992px) and (min-width: 576px) {
+    .card-grid-verticals {
+        margin: auto 2rem;
+    }
+    .outerDiv {
+        margin-top: 7rem;
+    }
+
+    .introDiv {
+        padding-right: 4%;
+    }
+
+    .introHeading {
+        font-size: 2.3rem;
+    }
+
+    .introSubheading {
+        font-size: 1.3rem;
+    }
+
+    .introDesc {
+        font-size: 1rem;
+    }
+
+    .aboutBtn,
+    .exploreBtn {
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+        font-size: 0.9rem;
+        height: 2.5rem;
+    }
+
+    .headerText {
+        font-size: 3rem;
+    }
+}
+
+/***************************************************************************************************/
+
+@media (max-width: 576px) {
+    .outerDiv {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .card-grid-verticals {
+        margin: auto 2rem;
+    }
+
+    .introDiv {
+        /* padding-right: 4%; */
+        padding: 4%;
+    }
+
+    .introHeading {
+        font-size: 3.2rem;
+        text-align: center;
+    }
+
+    .introSubheading {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .introDesc {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .aboutBtn,
+    .exploreBtn {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .yuvaImg {
+        margin: auto;
+        padding: 2.8rem;
+    }
+
+    .headerText {
+        font-size: 1.4rem;
+    }
+}

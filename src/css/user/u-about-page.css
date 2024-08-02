@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+
+.u-about-page-landing-div {
+    max-width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.u-about-page-outer-div {
+    margin-top: 6rem;
+}
+
+.u-about-page-landing-div-left {
+    width : 50%;
+}
+
+.u-about-page-landing-div-right {
+    position: relative;
+    width : 50%;
+    /* align-items: center; */
+}
+
+.u-about-page-landing-slogan {
+    font-size: 3.8rem;
+    font-family: "Courgette";
+    /* font-weight: bold; */
+}
+
+.u-about-page-landing-slogan-bg {
+    position: absolute;
+    width: 400px;
+    top: -100px;
+    right : 0px;
+    border-radius: 40% 20% 42% 40%;
+}
+
+.u-page-page-landing-heading {
+    font-size: 2.8rem;
+    font-family: var(--font-family-1);
+    color: #2a3e78;
+    margin: 0;
+    font-weight: 600;
+}
+
+.u-about-page-landing-subheading {
+    font-size: 1.8rem;
+    font-family: var(--font-family-2);
+    font-weight: 500;
+}
+
+.u-about-page-landing-l-heading {
+    font-size: 3rem;
+    font-family: var(--font-family-2);
+    font-weight: 500;
+    margin: 0.5rem 0 1.8rem 0;
+}
+
+.u-about-page-landing-desc {
+    font-size: 1.1rem;
+    font-family: var(--font-family-2);
+}
+
+.u-about-page-landing-hero {
+    display: flex;
+    border-radius: 0.4rem;
+    margin: 3rem 0rem;
+    color: white;
+    max-width: 100%;
+    height: 400px;
+    background-color: var(--light-grey);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.u-about-page-landing-hero-heading {
+    font-size: 2.2rem;
+    font-family: var(--font-family-2);
+    font-weight: 500;
+}
+
+.u-about-page-landing-hero-subheading {
+    font-size: 1.2rem;
+    font-family: var(--font-family-2);
+}
+
+.u-about-page-landing-hero-left,
+.u-about-page-landing-hero-right {
+    width: 50%;
+    flex: 1;
+}
+
+.u-about-page-landing-hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 1.8rem 2.7rem;
+}
+
+.u-about-page-landing-hero-right {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.u-about-page-hero-img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 400px;
+}
+
+.u-about-page-landing-vr {
+    width: 2px;
+    background-color: rgb(175, 175, 175);
+    margin: 0 2rem 0 2rem;
+}
+
+.u-about-page-landing-team {
+    max-width: 100%;
+}
+
+.u-about-page-landing-team-row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.u-about-page-landing-team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 0.4rem;
+}
+
+.u-about-page-landing-team-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.u-about-page-landing-team-heading {
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+
+    font-family: var(--font-family-2);
+    margin-bottom: 0.4rem;
+}
+
+.u-about-page-landing-team-subheading {
+    font-size: 1.1rem;
+    text-align: center;
+
+    font-family: var(--font-family-2);
+    color: var(--dark-grey);
+    margin-top: 0;
+}
+
+.u-about-page-landing-btn-1,
+.u-about-page-landing-btn-2 {
+    border-radius: 0.4rem;
+    border: none;
+    width: 40%;
+    display: inline;
+    height: 2.75rem;
+    font-family: var(--font-family-2);
+    color: white;
+}
+
+.u-about-page-landing-btn-1 {
+    background-color: var(--yuva-blue);
+}
+
+.u-about-page-landing-btn-1:hover {
+    background-color: var(--yuva-dark-blue);
+}
+
+.u-about-page-landing-btn-2 {
+    background-color: var(--yuva-green);
+}
+
+.u-about-page-landing-btn-2:hover {
+    background-color: var(--yuva-dark-green);
+}
+
+.u-about-page-landing-reach-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+input {
+    padding: 0.4rem 0.6rem;
+    outline: none;
+    width: 49%;
+    font-size: 1.1rem;
+    font-family: var(--font-family-2);
+    color: var(--dark-grey);
+}
+
+textarea {
+    width: 80%;
+    padding: 0.4rem 0.6rem;
+    outline: none;
+}
+
+.u-about-page-landing-reach-input-row {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.img-1 {
+    border-radius: 0 0.4rem 0.4rem 0;
+}
+
+.img-2 {
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .u-about-page-outer-div {
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 6rem;
+    }
+
+    .u-about-page-landing-div {
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+
+    .u-page-page-landing-heading {
+        font-size: 1.6rem;
+    }
+
+    .u-about-page-landing-l-heading {
+        font-size: 2rem;
+    }
+
+    .u-about-page-landing-desc {
+        font-size: 1rem;
+    }
+
+    .u-about-page-landing-slogan {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .u-about-page-landing-slogan-bg {
+        /* width: 150px;
+        top: -190px;
+        left: 140px; */
+        display : none;
+    }
+
+    .u-about-page-landing-hero {
+        flex-direction: column;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .u-about-page-landing-hero-left,
+    .u-about-page-landing-hero-right {
+        width: 100%;
+        flex: 1;
+    }
+
+    .u-about-page-landing-hero-left {
+        padding: 1.2rem 2.1rem;
+    }
+
+    .u-about-page-landing-hero-right {
+        flex-direction: column;
+    }
+
+    .u-about-page-hero-img {
+        height: 100%;
+    }
+
+    .u-about-page-landing-hero-heading {
+        font-size: 1.4rem;
+    }
+
+    .u-about-page-landing-hero-subheading {
+        font-size: 1rem;
+    }
+
+    .u-about-page-landing-team-card {
+        width: 100px;
+    }
+
+    .u-about-page-landing-team-photo {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 0rem;
+    }
+
+    .u-about-page-landing-team-heading {
+        font-size: 0.9rem;
+    }
+
+    .u-about-page-landing-team-subheading {
+        font-size: 0.7rem;
+    }
+
+    .img-1 {
+        border-radius: 0 0 0.4rem 0.4rem;
+    }
+
+    .img-2 {
+        border-radius: 0.4rem 0.4rem 0 0;
+    }
+
+    .u-about-page-landing-reach-input-row {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    /* Your tablet-specific styles go here */
+    .u-about-page-landing-slogan-bg {
+        display : none;
+    }
+  }

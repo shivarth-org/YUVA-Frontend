@@ -1,0 +1,106 @@
+.outerDiv {
+  margin-top: 6rem;
+}
+
+.commonDiv {
+  margin-bottom: 3rem;
+}
+
+.headingText {
+  font-family: var(--font-family-1);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.textArea {
+  border-radius: 0.4rem;
+  outline: none;
+  border: 0.05rem solid var(--grey);
+  width: 100%;
+
+  padding: 0.8rem;
+  font-family: var(--font-family-2);
+}
+
+.textArea:focus {
+  border: none;
+  /* box-shadow: var(--box-shadow-1); */
+  border: 0.1rem solid var(--grey);
+}
+
+.commonInput {
+  border-radius: 0.4rem;
+  outline: none;
+  border: 0.05rem solid var(--grey);
+  width: 100%;
+  height: 2.4rem;
+  padding: 0.8rem;
+  font-family: var(--font-family-2);
+}
+
+.commonInput:focus {
+  border: none;
+  /* box-shadow: var(--box-shadow-1); */
+  border: 0.1rem solid var(--grey);
+}
+
+.removeBtn {
+  margin-top: 0.4rem;
+  border: none;
+  background-color: transparent;
+  color: white;
+  /* border: 1px solid red; */
+  background-color: red;
+  border-radius: 0.2rem;
+}
+
+.addBtn {
+  border-radius: 0.4rem;
+  border: none;
+  background-color: var(--yuva-blue);
+  /* margin: auto; */
+  /* margin-top: 1rem; */
+  /* margin-bottom: 2rem; */
+  height: 2.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+  font-family: var(--font-family-2);
+}
+
+.addBtn:hover {
+  background-color: var(--yuva-dark-blue);
+}
+
+.addBtn:disabled {
+  /* background-color: yellow; */
+}
+
+.optInput {
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 0 0.5rem;
+  height: 2rem;
+  border: 0.05rem solid var(--grey);
+  font-family: var(--font-family-2);
+  /* width: 60%; */
+}
+
+.optInput:focus {
+  border: none;
+  /* box-shadow: var(--box-shadow-1); */
+  border: 0.1rem solid var(--grey);
+}
+
+/**************************************** Mobile and Tab ********************************************/
+@media (max-width: 992px) and (min-width: 768px) {
+  .commonDiv {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .commonDiv {
+    margin-bottom: 2rem;
+  }
+}

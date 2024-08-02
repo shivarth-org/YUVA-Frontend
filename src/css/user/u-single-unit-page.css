@@ -1,0 +1,133 @@
+.u-single-unit-page-outer-div {
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+}
+
+.user-single-unit-title-desc-div {
+  background-image: linear-gradient(to right, #dbebff, #b3d4ff);
+  background-image: linear-gradient(to right, white, #dbebff, #b3d4ff);
+
+  /* background-image: linear-gradient(to right, #dbebff, #c94c92); */
+  box-shadow: 0 0 0.5rem 0 rgb(0, 0, 0, 0.9);
+  border-radius: 1.5rem;
+}
+
+.u-single-unit-page-quiz-cert-outer-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.u-single-unit-page-common {
+  margin-top: 3rem;
+}
+
+.u-single-unit-page-vdo-title {
+  color: var(--yuva-dark-blue);
+}
+
+.u-single-unit-page-vdo-desc {
+  color: var(--yuva-dark-blue);
+}
+
+.u-single-unit-page-activity-div {
+  margin-top: 1.6rem;
+}
+
+.u-single-unit-page-activity-input {
+  margin-top: 0.5rem;
+  font-family: var(--font-family-2);
+}
+
+.u-single-unit-page-sec-heading {
+  font-family: var(--font-family-1);
+  font-weight: 900;
+  /* font-size: 2.4rem; */
+}
+
+.u-single-unit-page-sec-text {
+  font-family: var(--font-family-2);
+}
+
+.u-single-unit-page-sec-btn {
+  background-color: var(--yuva-green);
+  border-radius: 0.4rem;
+  height: 2.2rem;
+  border: none;
+  color: white;
+  padding: 0 1rem 0 1rem;
+  font-family: var(--font-family-2);
+  /* margin-top: 1rem; */
+}
+
+.u-single-unit-page-sec-btn:hover,
+.u-single-unit-page-sec-btn:active {
+  background-color: var(--yuva-dark-green);
+}
+
+/**********************************/
+
+.outerDiv {
+  margin-top: 8rem;
+  margin-bottom: 10rem;
+}
+
+.vdoInfoDiv {
+  background-image: linear-gradient(to right, #dbebff, #b3d4ff);
+  background-image: linear-gradient(to right, white, #dbebff, #b3d4ff);
+
+  /* background-image: linear-gradient(to right, #dbebff, #c94c92); */
+  box-shadow: 0 0 0.5rem 0 rgb(0, 0, 0, 0.9);
+  border-radius: 1.5rem;
+}
+
+.quizCertOuterDiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.common {
+  margin-top: 3rem;
+}
+
+.vdoTitle {
+  color: var(--yuva-dark-blue);
+}
+
+.vdoDesc {
+  color: var(--yuva-dark-blue);
+}
+
+.activityDiv {
+  margin-top: 1.6rem;
+}
+
+.activityInput {
+  margin-top: 0.5rem;
+  font-family: var(--font-family-2);
+}
+
+.secHeading {
+  font-family: var(--font-family-1);
+  font-weight: 900;
+  /* font-size: 2.4rem; */
+}
+
+.secText {
+  font-family: var(--font-family-2);
+}
+
+.secBtn {
+  background-color: var(--yuva-green);
+  border-radius: 0.4rem;
+  height: 2.2rem;
+  border: none;
+  color: white;
+  padding: 0 1rem 0 1rem;
+  font-family: var(--font-family-2);
+  /* margin-top: 1rem; */
+}
+
+.secBbtn:hover,
+.secBtn:active {
+  background-color: var(--yuva-dark-green);
+}

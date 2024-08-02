@@ -1,0 +1,47 @@
+.outerDiv {
+  margin-top: 8rem;
+}
+
+.card-grid-verticals {
+  margin: auto 8rem;
+}
+
+.headerText {
+  font-size: 2.8rem;
+  font-family: var(--font-family-1);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #2a3e78;
+}
+
+
+/****************************************** Mobile and tab ******************************************/
+
+@media (max-width: 992px) and (min-width: 576px) {
+  .card-grid-verticals{
+    margin: auto 2rem;
+  }
+
+  .outerDiv {
+    margin-top: 6rem;
+  }
+
+  .headerText {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-grid-verticals{
+    margin: auto 2rem;
+  }
+  
+  .outerDiv {
+    margin-top: 5rem;
+  }
+
+  .headerText {
+    font-size: 1.8rem;
+  }
+}

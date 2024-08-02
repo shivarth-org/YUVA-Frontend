@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  word-wrap: break-word;
+  background-color: rgb(250, 253, 255);
+}
+
+.app-outer-div {
+  width: 80%;
+  min-height: 80vh;
+  margin: auto;
+}
+.nav-services {
+  font-size: 0.9rem;
+  font-weight: 400;
+  background: #0c5e9b;
+  color: white !important;
+  /* box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, */
+  /* rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; */
+  padding: 0.5rem !important;
+  border-radius: 0.3rem !important;
+}
+.css-13cymwt-control {
+  border-radius: 0.4rem !important;
+  outline: none;
+  border: 0.08rem solid var(--grey) !important;
+  /* width: 100%;
+  height: 2.4rem;
+  padding: 0.8rem; */
+  font-family: var(--font-family-2);
+  font-size: 0.9rem;
+}
+.css-13cymwt-control::placeholder {
+  font-size: 0.9rem !important;
+}
+
+.css-13cymwt-control:focus {
+  /* border: none; */
+  /* box-shadow: var(--box-shadow-2); */
+  border: 0.1rem solid var(--grey) !important;
+}
+
+@media (max-width: 600px) {
+  .app-outer-div {
+    width: 92%;
+    margin: auto;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cascading-right {
+  margin-right: -50px;
+}
+
+@media (max-width: 900px) {
+  .cascading-right {
+    margin-right: 0;
+  }
+}
+button:disabled,
+button[disabled] {
+  cursor: not-allowed;
+}
+.navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+  border-radius: 0.2rem;
+  font-size: 0.9rem;
+  /* height: 100%; */
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  margin-left: 1.5rem;
+}
+
+.navbar-nav .nav-link:hover {
+  /* color: #0c5e9b !important; */
+  font-weight: 500 !important;
+  background: #063b63;
+  /* box-shadow: none; */
+  /* background-color: var(--light-grey); */
+  /* text-decoration: underline; */
+}
+
+.cardOuterDiv {
+  padding: 1rem;
+  /* 0.625rem = 10px */
+}
+
+.headerTitle {
+  font-size: 2.4rem;
+  font-family: var(--font-family-1);
+  font-weight: 700;
+  margin: 0;
+}
+
+.headerSubtitle {
+  font-size: 1.3rem;
+  font-family: var(--font-family-2);
+  margin-top: 1rem;
+  margin: 0;
+}
+
+.nothingText {
+  font-family: var(--font-family-1);
+  font-weight: 600;
+  text-align: center;
+  margin: 3rem;
+}
+
+/********************************************* Modal **************************************************/
+
+.modalLabel {
+  font-size: 0.8rem;
+  margin: 0;
+  font-family: var(--font-family-2);
+}
+
+.modalInput {
+  margin: 0;
+  border-radius: 0.4rem;
+  outline: none;
+  border: 0.08rem solid var(--grey);
+  width: 100%;
+  height: 2.4rem;
+  padding: 0.8rem;
+  font-family: var(--font-family-2);
+  font-size: 0.9rem;
+}
+
+.modalInput:focus {
+  border: none;
+  /* box-shadow: var(--box-shadow-1); */
+  border: 0.1rem solid var(--grey);
+}
+
+.modalCloseBtn,
+.modalAddBtn,
+.modalDltBtn {
+  border-radius: 0.4rem;
+  border: none;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  display: block;
+  height: 2.4rem;
+  color: white;
+  /* margin: auto; */
+  /* margin-top: 1rem; */
+  font-family: var(--font-family-2);
+}
+
+.modalCloseBtn {
+  background-color: var(--yuva-green);
+}
+
+.modalCloseBtn:hover {
+  background-color: var(--yuva-dark-green);
+}
+
+.modalAddBtn {
+  background-color: var(--yuva-blue);
+}
+
+.modalAddBtn:hover {
+  background-color: var(--yuva-dark-blue);
+}
+
+.modalDltBtn {
+  background-color: var(--red);
+}
+
+.modalDltBtn:hover {
+  background-color: red;
+}
+
+.editNote {
+  font-family: var(--font-family-1);
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* Scroll bar stylings */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--lightestgrey);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d5e9c;
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0d5e9c;
+}
+
+.css-gl260s-MuiDataGrid-columnHeadersInner {
+  background: #0d5e9c !important;
+  color: whitesmoke !important;
+  font: 900 !important;
+}
+.MuiDataGrid-columnHeaders {
+  background: #0d5e9c !important;
+  color: whitesmoke !important;
+  font: 900 !important;
+  border-radius: 0% !important;
+}
+.MuiButtonBase-root {
+  color: whitesmoke !important;
+}
+.MuiDataGrid-root {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 15px -3px !important;
+}
+
+.MuiTablePagination-displayedRows {
+  color: aliceblue !important;
+}
+.MuiDataGrid-footerContainer {
+  background: #0d5e9c !important;
+  color: aliceblue !important;
+}
+.MuiDataGrid-selectedRowCount {
+  color: aliceblue !important;
+}
+.MuiToolbar-root {
+  color: aliceblue !important;
+}
+.MuiDataGrid-virtualScroller {
+  min-height: 200px !important;
+}
+.MuiButtonBase-root {
+  color: black !important;
+}
+#demo-customized-button:hover {
+  background-color: #0c5e9b;
+  /* fill: #fff !important; */
+  /* stroke: #fff !important; */
+  color: #fff !important;
+}
+.btn.btn-primary[disabled] {
+  background-color: #a8a8a8;
+}
+.w-100 {
+  width: 100% !important;
+}
+.react-datepicker-wrapper {
+  width: 100% !important;
+}
+.MuiTableCell-head {
+  color: #fff !important;
+}
+/****************************************** Mobile and Tab *******************************************/
+
+@media (max-width: 992px) and (min-width: 576px) {
+  .headerTitle {
+    font-size: 2.4rem;
+  }
+
+  .headerSubtitle {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .headerTitle {
+    font-size: 1.8rem;
+  }
+
+  .headerSubtitle {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,66 @@
+/* .outerDiv {
+  margin-top: 6.5rem;
+  user-select: none;
+} */
+.outerDiv {
+  margin: auto;
+  width: 65%;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  /* border: 2px solid red; */
+}
+
+.chapterEMLabel {
+  font-size: 0.8rem;
+}
+
+.chapterEMInput {
+  border-radius: 0.4rem;
+  outline: none;
+  border: 0.08rem solid var(--grey);
+  width: 100%;
+  height: 2.4rem;
+  padding: 0.5rem;
+  font-family: var(--font-family-2);
+  font-size: 0.9rem;
+}
+
+.chapterEMInput:focus {
+  border: none;
+  /* box-shadow: var(--box-shadow-1); */
+  border: 0.1rem solid var(--grey);
+}
+
+.passPolicy {
+  cursor: pointer;
+}
+
+.chapterEMBtn {
+  border-radius: 0.4rem;
+  border: none;
+  background-color: var(--yuva-green);
+  height: 2.75rem;
+  padding: 0 3rem;
+  color: white;
+  font-family: var(--font-family-2);
+}
+
+.chapterEMBtn:hover {
+  background-color: var(--yuva-dark-green);
+}
+.lableAlignLeft {
+  align-items: start;
+}
+
+.verifyouterDiv {
+  width: 40%;
+}
+
+@media (max-width: 992px) {
+  .outerDiv {
+    width: 100%;
+  }
+  .verifyouterDiv {
+    width: 100%;
+  }
+}

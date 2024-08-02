@@ -1,0 +1,60 @@
+:root {
+  /* font families */
+  --font-family-1: "Poppins";
+  --font-family-2: "Rubik";
+
+  /* yuva colors */
+  --yuva-green: green;
+  /* --yuva-dark-green: #044f04; */
+  --yuva-dark-green: #056005;
+  --yuva-blue: #0d5e9c;
+  --yuva-dark-blue: #053357;
+  /* --yuva-dark-orange: #ec4812; */
+  --yuva-dark-orange: #d84919;
+
+  --yuva-orange: orange;
+
+  /* other colors */
+  /* --card-dlt-red: #ed0707; */
+  --card-dlt-red: #ff4c4b;
+  --red: #ff4c4b;
+  --ice-blue: #c2dcfe;
+  --pink: ##cf4b8d;
+  --dark-purple: #131022;
+
+  --grey: grey;
+  --dark-grey: #696969;
+  --light-grey: lightgray;
+  --blue: #0b5ed7;
+  --cert-gold: #996515;
+
+  /* styling */
+  --box-shadow-1: 0 0 0.5rem 0 rgb(0, 0, 0, 0.9);
+  --box-shadow-2: 0 0 0.5rem 0 var(--yuva-blue);
+}
+
+body {
+  margin: 0;
+}
+
+.text-ff2 {
+  font-family: var(--font-family-2);
+}
+
+.text-ff1 {
+  font-family: var(--font-family-1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-underline {
+  text-decoration: underline;
+  /* font-weight: 560; */
+}
+
+.commonBtn {
+  border-radius: 0.4rem;
+  border: none;
+}

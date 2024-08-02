@@ -1,0 +1,23 @@
+.outerDiv {
+    /* margin-top: 12rem; */
+    margin: 160px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 2px solid blue; */
+}
+.yuvaImg {
+    width: 90%;
+    /* border: 2px solid red; */
+}
+
+@media (max-width: 992px) and (min-width: 576px) {
+    .outerDiv {
+        grid-template-columns: 0.75fr 1.25fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .outerDiv {
+        grid-template-columns: 0fr 1fr;
+    }
+}

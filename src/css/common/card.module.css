@@ -1,0 +1,112 @@
+p {
+    margin: 0;
+}
+
+.cardDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 6px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 6px -8px rgba(0,0,0,1);
+box-shadow: 0px 0px 6px -8px rgba(0,0,0,1);
+    border: 1px solid #dbdbdb;
+    /* background-color: white; */
+    height: 100%;
+    min-height: 400px;
+    transition: 0.25s;
+}
+
+.cardDiv:hover {
+    -webkit-box-shadow: 10px 10px 35px -20px rgba(0,0,0,0.33);
+    -moz-box-shadow: 10px 10px 35px -20px rgba(0,0,0,0.33);
+    box-shadow: 10px 10px 35px -20px rgba(0,0,0,0.33);
+    transform: translateY(-4px);
+}
+
+.cardImg {
+    width: 100%;
+    object-fit: cover;
+    height: 14rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardDetails {
+    padding: 1.4rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cardName {
+    font-family: var(--font-family-1);
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.cardDesc {
+    font-family: var(--font-family-2);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 0.8rem;
+    text-align: center;
+}
+
+.cardCount {
+    font-family: var(--font-family-2);
+    color: gray;
+    font-size: 0.8rem;
+    text-decoration: underline;
+    margin-bottom: 0.4rem;
+    text-align: center;
+}
+
+.cardBtns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.cardViewBtn,
+.cardDltBtn {
+    border-radius: 0.4rem;
+    border: none;
+    width: 100%;
+    /* padding-left: 2.8rem; */
+    /* padding-right: 2.8rem; */
+    display: block;
+    height: 2.8rem;
+    /* font-weight: 500; */
+    color: white;
+    /* margin: auto; */
+    margin-top: 1rem;
+    font-family: var(--font-family-2);
+}
+
+.cardViewBtn {
+    background-color: var(--yuva-blue);
+}
+
+.cardViewBtn:hover {
+    background-color: var(--yuva-dark-blue);
+}
+
+.cardDltBtn {
+    border: 1.5px solid var(--card-dlt-red);
+    margin-left: 0.4rem;
+    background-color: white;
+}

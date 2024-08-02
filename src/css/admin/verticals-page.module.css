@@ -1,0 +1,31 @@
+.outerDiv {
+  margin-top: 8rem;
+}
+
+.addBtn {
+  background-color: var(--blue);
+  margin-top: 1.4rem;
+  height: 2.75rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: white;
+  font-family: var(--font-family-2);
+}
+
+.addBtn:hover {
+  background-color: var(--yuva-dark-blue);
+}
+
+/****************************************** Mobile and tab ******************************************/
+
+@media (max-width: 992px) and (min-width: 576px) {
+  .outerDiv {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .outerDiv {
+    margin-top: 6rem;
+  }
+}

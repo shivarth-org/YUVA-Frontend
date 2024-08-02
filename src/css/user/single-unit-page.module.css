@@ -1,0 +1,121 @@
+.outerDiv {
+  margin-top: 7rem;
+  margin-bottom: 10rem;
+}
+
+.common {
+  margin-top: 3rem;
+}
+
+.vdoTitle {
+  color: var(--yuva-dark-blue);
+  font-family: var(--font-family-1);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.vdoDesc {
+  color: var(--yuva-dark-blue);
+  font-family: var(--font-family-2);
+  font-size: 1.1rem;
+}
+
+.activityDiv {
+  margin-top: 1.6rem;
+}
+
+.activityInput {
+  margin-top: 0.5rem;
+  font-family: var(--font-family-2);
+  /* border: 2px solid red; */
+}
+
+.activityBtnDiv {
+  display: inline;
+}
+
+
+.secHeading {
+  font-family: var(--font-family-1);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  /* font-size: 2.4rem; */
+}
+
+.secText {
+  font-family: var(--font-family-2);
+  font-size: 1.1rem;
+}
+
+.secBtn {
+  background-color: var(--yuva-green);
+  border-radius: 0.4rem;
+  height: 2.2rem;
+  border: none;
+  color: white;
+  padding: 0 1rem 0 1rem;
+  font-family: var(--font-family-2);
+  margin-top: 1rem;
+}
+
+.secBtn:hover,
+.secBtn:active {
+  background-color: var(--yuva-dark-green);
+}
+
+.quizDiv {
+  padding-right: 1.5rem;
+  /* padding: 10px; */
+}
+
+.certDiv {
+  padding-left: 1.5rem;
+  /* padding: 1.5rem; */
+}
+
+/**************************************** Mobile and Tab ********************************************/
+@media (max-width: 992px) and (min-width: 768px) {
+  .outerDiv {
+    margin-top: 6rem;
+  }
+
+  .common {
+    margin-top: 2.2rem;
+  }
+
+  .quizDiv {
+    padding-right: 1.1rem;
+  }
+
+  .certDiv {
+    padding-left: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .outerDiv {
+    margin-top: 5rem;
+  }
+
+  .common {
+    margin-top: 1.8rem;
+  }
+
+  .activityInput {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+  }
+
+  .quizDiv {
+    padding-right: 0.625rem;
+  }
+
+  .certDiv {
+    margin-top: 2rem;
+    padding-left: 0.625rem;
+  }
+}
+
+/*
+0.625rem = 10px that is the default padding applied by boostrap grid system, we are just counter-balancing it 
+*/
